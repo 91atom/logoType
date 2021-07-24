@@ -1,39 +1,53 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
+
 body {
     width: 1920px;
-    background-color: red;;
+    margin: auto;
 }
+
+.wrapper {
+    width: 1140px;
+    margin: auto;
+}
+
 .top-header {
+    background: #303030;
+}
+
+.flexer {
     display: flex;
     justify-content: space-between;
-    background: #303030;
-
 }
+
 .top-header>div {
     padding: 20px 0;
-    margin 
+    margin
 }
+
 a {
     text-decoration: none;
 }
+
 .contact a {
     color: #cbcacb;
 }
-.phone::before {
 
-}
-.email::before {
+.phone::before {}
 
-}
+.email::before {}
+
 .fa {
-    padding: 0 10px 0  0;
+    padding: 0 10px 0 0;
 }
+
 .contact .fa {
     color: #ffcd21;
 }
+
 .contact-phone {
     display: inline-block;
     padding-right: 30px;
@@ -42,12 +56,35 @@ a {
 .button {
     background: #ffc222;
 }
+
 .button a {
     color: #1b1b1b;
 }
+
 .button .fa {
     color: #1b1b1b;
 }
+
 .button-consult {
-    padding:  0  45px 0 15px;
+    padding: 0 45px 0 15px;
+}
+
+.bottom-header {
+    padding: 34px 0px 22px 0px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.menu-list a {
+    color: #323232;
+    padding: 13px 20px;
+    display: block;
+}
+
+.active-link {
+    border: 1px solid #ffc222;
 }
